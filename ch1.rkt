@@ -22,3 +22,10 @@
 (claim two Nat)
 (define two
   (add1 one))
+
+(claim four Nat)
+(define four
+  (add1
+    (add1
+      (add1
+        (add1 zero)))))
